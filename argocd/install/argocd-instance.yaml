@@ -9,11 +9,11 @@ spec:
     image: quay.io/redhat-cop/dex
     version: v2.22.0-openshift
   image: quay.io/argoproj/argocd
-   resourceCustomizations: |
-   route.openshift.io/Route:
-     ignoreDifferences: |
-       jsonPointers:
-       - /spec/host
+  resourceCustomizations: |
+  route.openshift.io/Route:
+    ignoreDifferences: |
+      jsonPointers:
+      - /spec/host
   rbac:
     policy: |
       g, admins, role:admin
