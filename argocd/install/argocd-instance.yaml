@@ -27,4 +27,3 @@ spec:
     - name: sample-app
       type: git
       url: https://github.com/siamaksade/openshift-gitops-getting-started
-      path: app
