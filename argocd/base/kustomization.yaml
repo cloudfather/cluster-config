@@ -1,0 +1,4 @@
+resources:
+- argocd-ns.yaml
+- argocd-operatorgroup.yaml
+- argocd-subscription.yaml
